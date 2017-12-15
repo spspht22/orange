@@ -1,0 +1,162 @@
+body {
+	margin: 0 auto;
+}
+
+/*nav bar*/
+.ojbar {
+	background-color: #FE7E00;
+	height: 100px;
+	box-shadow: 0px 6px #E77014;
+}
+
+.ojbar img {
+    width: 50px;
+    height: 50px;
+    padding: 9px 0 0 165px;
+    position: relative;
+    top: 10px;
+}
+
+.ojbar p {
+	display: inline-block;
+    color: white;
+  }
+
+
+.ojbar li{
+	display: inline-block;
+	padding: 0 32px;
+}
+
+.ojbar ul {
+	float: right;
+	padding: 24px;
+}
+
+.ojbar a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	transition: .3s
+}
+.ojbar a:hover {
+	color: #7BCCC7;
+}
+
+.thick {
+	font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.thin {
+	font-size: 35px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tm {
+	font-size: 15px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+}
+
+/*search button*/
+.search {
+    float: right;
+    height: 62px;
+    width: 253px;
+    background-color: #EFEFED;
+    margin: 7px 99px;
+}
+
+.search p {
+	padding: 0 20px;
+	color: #CFD2D1;
+	font-family: 'Barlow', sans-serif;
+}
+
+.search i {
+	float: right;
+}
+
+/*main content*/
+.orange {
+	width: 450px;
+    height: 450px;
+    margin: 60px 30px 50px 160px;
+}
+/*cannot get this to work with display: inline-block; css command*/
+.slice {
+	display: inline-flex;
+}
+.main {
+	color: #F3AB3E;
+	height: 450px;
+	width: 661px;
+	padding: 90px;
+	padding-bottom: 10px;
+}
+
+.thickagain {
+	font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main p {
+	font-size: 50px;
+    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tm2 {
+	font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+}
+
+.amp {
+	position: relative;
+    top: 7px;
+    width: 45px;
+    height: 45px;
+}
+
+.bluetext {
+	color: #7BCCC7;
+	font-weight: bold;
+}
+
+.main button {
+    width: 275px;
+    height: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.orangebutton {
+	background-color: #FF7E00;
+	border: none;
+	border-radius: 3px;
+}
+
+.bluebutton {
+	background-color: #7BCCC7;
+	border: none;
+	border-radius: 3px;
+}
+
+footer {
+	background-color: #7BCCC7;
+	height: 120px;
+}
