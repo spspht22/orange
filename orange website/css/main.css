@@ -1,0 +1,375 @@
+body {
+	margin: 0 auto;
+}
+
+/*nav bar*/
+.ojbar {
+	background-color: #FE7E00;
+	height: 100px;
+	box-shadow: 0px 6px #E77014;
+}
+
+.ojbar img {
+    width: 50px;
+    height: 50px;
+    padding: 9px 0 0 165px;
+    position: relative;
+    top: 10px;
+}
+
+.ojbar p {
+	display: inline-block;
+    color: white;
+  }
+
+
+.ojbar li{
+	display: inline-block;
+	padding: 0 32px;
+}
+
+.ojbar ul {
+	float: right;
+	padding: 24px;
+}
+
+.ojbar a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	transition: .3s
+}
+.ojbar a:hover {
+	color: #7BCCC7;
+}
+
+.thick {
+	font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.thin {
+	font-size: 35px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tm {
+	font-size: 15px;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+}
+
+/*search button*/
+.search {
+    float: right;
+    height: 62px;
+    width: 253px;
+    background-color: #EFEFED;
+    margin: 7px 99px;
+}
+
+.search p {
+	padding: 0 20px;
+	color: #CFD2D1;
+	font-family: 'Barlow', sans-serif;
+}
+
+.search i {
+	float: right;
+}
+
+/*main content*/
+.orange {
+	width: 450px;
+    height: 450px;
+    margin: 60px 30px 50px 160px;
+}
+/*cannot get this to work with display: inline-block; css command*/
+.slice {
+	display: inline-flex;
+}
+.main {
+	color: #F3AB3E;
+	height: 450px;
+	width: 661px;
+	padding: 90px;
+	padding-bottom: 10px;
+}
+
+.thickagain {
+	font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.main p {
+	font-size: 50px;
+    font-weight: 100;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tm2 {
+	font-size: 15px;
+    font-weight: 100;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+}
+
+.amp {
+	position: relative;
+    top: 7px;
+    width: 45px;
+    height: 45px;
+}
+
+.bluetext {
+	color: #7BCCC7;
+	font-weight: bold;
+}
+
+.main button {
+    width: 275px;
+    height: 70px;
+    color: white;
+    cursor: pointer;
+}
+
+.orangebutton {
+	background-color: #FF7E00;
+	border: none;
+	border-radius: 3px;
+}
+
+.bluebutton {
+	background-color: #7BCCC7;
+	border: none;
+	border-radius: 3px;
+}
+
+footer {
+	background-color: #7BCCC7;
+	height: 120px;
+}
+
+
+@media (max-width: 1389px) { 
+	.main {
+		position: relative;
+		right: 100px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.orange {
+		margin: 60px 30px 50px 70px;
+	}
+}
+
+@media (max-width: 1160px) {
+	.orange {
+    width: 400px;
+    height: 400px;
+	}
+}
+
+@media (max-width: 1136px) {
+	.ojbar img {
+		padding: 9px 0 0 70px;
+	}
+	.main {
+		width: 630px;
+	}
+	.main button {
+    width: 225px;
+	}
+}
+
+@media (max-width: 1039px) {
+	.ojbar img {
+    padding: 9px 0 0 30px;
+	}
+	.main {
+		padding: 65px;
+	}
+	.orange {
+    margin: 50px 30px 50px 35px;
+	}
+}
+
+@media (max-width: 1001px) {
+	.ojbar img {
+    padding: 9px 0 0 8px;
+	}
+	.ojbar ul {
+    padding: 24px 4px;
+}
+	.ojbar li {
+    padding: 0 16px;
+	}
+}
+
+@media (max-width: 999px) {
+	.ojbar ul {
+	padding: 24px 5px;
+	}
+}
+
+@media (975px) {
+	.orange {
+    margin: 50px 30px 10px 8px;
+    width: 350px;
+    height: 350px;
+	}
+	.main {
+    padding: 10px 0;
+	}
+	.main p {
+    font-size: 35px;
+	}
+	.thickagain {
+    font-size: 35px
+	}
+	.amp {
+    position: relative;
+    top: 7px;
+    width: 30px;
+    height: 30px;
+	}
+	.slice {
+		width: 100%;
+	}
+}
+
+@media (max-width: 800px) {
+	.slice {
+    width: 100%;
+	}
+	.orange {
+    margin: 40px 30px 50px 35px;
+    width: 350px;
+    height: 350px;
+	}
+	.main {
+    padding: 65px 0 65px 63px;
+	}
+	.main p {
+    font-size: 35px;
+	}
+	.thickagain {
+    font-size: 35px;
+	}
+	.main button {
+    width: 155px;
+    font-size: 12px;
+	}
+}
+
+@media (max-width: 780px) {
+	.ojbar li {
+    padding: 0 5px;
+	}
+	.search {
+		margin: 7px 5px;
+	}
+	.main {
+    padding: 20px 0 65px 63px;
+    margin-left: 55px;
+	}
+	.orange {
+		width: 325px;
+		height: 325px;
+	}
+	.main button {
+    width: 110px;
+    font-size: 9px;
+    height: 50px;
+}
+}
+
+@media (max-width: 760px) {
+	.thick {
+    font-size: 25px;
+	}
+	.thin {
+    font-size: 25px;
+	}
+	.ojbar li {
+    padding: 0 5px;
+	}
+	.search {
+		margin: 7px 20px;
+	}
+	.main button {
+    width: 110px;
+    font-size: 9px;
+	}
+}
+
+@media (max-width: 731px) {
+	.amp {
+	width: 30px;
+    height: 30px
+	}
+	.main p {
+    font-size: 27px;
+	}
+	.thickagain {
+    font-size: 27px;
+	}
+	.orange {
+    margin: 10px 30px 30px 35px;
+	}
+}
+
+@media (max-width: 415px) {
+	.orange {
+	    margin: 22px 5px 0px 0px;
+	    width: 200px;
+	    height: 200px;
+	    position: relative;
+	    bottom: 0px;
+    }
+	.ojbar {
+		height: 160px;
+		text-align: center;
+	}
+	.search {
+	    margin: 0px 2px;
+	    position: relative;
+	    bottom: 10px;
+	}
+	.main {
+	    left: 0px;
+	    margin-left: 0px;
+	    padding-left: 0px;
+	    right: 10px;
+	    position: relative;
+	    padding-bottom: 0px;
+	    padding-top: 0px;
+	    margin-right: 0px;
+	}
+	.main button {
+	    width: 109px;
+	    font-size: 9px;
+	    margin: 2px 0;
+	}
+}
+
+@media (max-width: 376px) {
+	li.contact {
+    display: none;
+	}
+	.ojbar ul {
+		margin-right: 7%;
+	}
+}
